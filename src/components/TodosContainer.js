@@ -7,8 +7,8 @@ class TodosContainer extends Component {
  
   constructor(props) {
     super(props)
-	  const hostname = '<Change-this-for-your-personal-environment-url>'
-    this.url =  `${hostname}/ToDoAPI/rest/`
+	  const hostname = '<change-to-your-personal-environment-hostname>'
+    this.url =  `https://${hostname}/ToDoAPI/rest/`
     this.state = {
       todos: [],
       inputValue: ''
