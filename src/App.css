@@ -89,6 +89,7 @@ input[placeholder] {
 	top: 160px;
 	right: 0;
 	left: 0;
+	height: 100%;
 	overflow: auto;
 }
 
